@@ -24,9 +24,8 @@ body{
   background-color: #FFE4C4;
   }
 
-
-
 .projects{
+  color:
   background-color: #dc143c;
   margin-bottom: 100px;
   height: 550px;
@@ -68,7 +67,7 @@ body{
   animation-duration: 4s;
   animation-iteration-count: infinite;
   }
-    @keyframes contacts {
+  @keyframes contacts {
     0% {background-color: #ffd700;}
     20% {background-color: #8b008b;}
     20.05% {background-color: #8b008b;}
@@ -151,20 +150,22 @@ body{
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-@keyframes aboutMe {
-  0% {background-color: #008b8b;}
-  20% {background-color: #dc143c;}
-  20.05% {background-color: #dc143c;}
-  40% {background-color: #ffd700;}
-  40.05% {background-color: #ffd700;}
-  60% {background-color: #8b008b;}
-  60.05% {background-color: #8b008b;}
-  80% {background-color: #ff8c00;}
-  80.05% {background-color: #ff8c00;}
-  100% {background-color: #008b8b;}
+  @keyframes aboutMe {
+    0% {background-color: #008b8b;}
+    20% {background-color: #dc143c;}
+    20.05% {background-color: #dc143c;}
+    40% {background-color: #ffd700;}
+    40.05% {background-color: #ffd700;}
+    60% {background-color: #8b008b;}
+    60.05% {background-color: #8b008b;}
+    80% {background-color: #ff8c00;}
+    80.05% {background-color: #ff8c00;}
+    100% {background-color: #008b8b;}
 }
 
 #projects{
+  font-family: 'Permanent Marker', cursive;
+  color: white;
   font-size: 50px;
   margin-bottom: 100px;
   height: 450px;
@@ -174,41 +175,115 @@ body{
   z-index: +2;
   top: 213px;
 }
-#contacts{
-  font-size: 50px;
-  height: 420px;
-  width: 390px;
+#contacts {
+  color: white;
+  font-size: 25px;
+  height: 200px;
+  width: 200px;
   position: absolute;
   z-index: +2;
   margin-left: 743px;
   margin-top: -694px;
 }
+/* Dropdown Button */
+.dropbtn {
+  font-family: 'Permanent Marker', cursive;
+  background-color: rgba(0,0,0,0);
+  color: white;
+  padding: 16px;
+  font-size: 45px;
+  height: 100px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: +2;
+  margin-left: 734px;
+  margin-top: -717px;
+
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0,0,0,0.8);
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0);
+}
+
+
 #resume{
+    font-family: 'Rock Salt', cursive;
+  color: white;
   font-size: 50px;
   height: 420px;
-  width: 390px;
+  width: 200px;
   position: absolute;
   z-index: +2;
-    margin-left: 850px;
-    margin-top: -469px;
+  margin-left: 850px;
+  margin-top: -469px;
 }
 #blog{
+  color: white;
   font-size: 50px;
   height: 475px;
-  width: 366px;
+  width: 200px;
   position: absolute;
-  z-index: +2;
-    margin-left: 756px;
-    margin-top: -269px;
+  z-index: +3;
+  margin-left: 756px;
+  margin-top: -269px;
 }
 #aboutMe{
+  font-family: 'Bangers', cursive;
+  color: white;
   font-size: 50px;
   height: 400px;
-  width: 520px;
+  width: 200px;
   position: absolute;
   z-index: +2;
   top: 275px;
-    margin-left: 429px;
-    margin-top: 316px;
+  margin-left: 429px;
+  margin-top: 316px;
 }
+
+
+/*
+font-family: 'Righteous', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Bangers', cursive;*/
+
+
+
+
+
 
