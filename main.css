@@ -17,14 +17,13 @@ body{
   height: 270px;
   width: 270px;
   border-radius: 50%;
-  z-index: +2;
+  z-index: +3;
   position: absolute;
   margin-left: 535px;
   top: 283px;
   border:10px solid #293442  }
 
 .projects{
-  color:
   background-color: #dc143c;
   margin-bottom: 100px;
   height: 550px;
@@ -220,6 +219,8 @@ body{
 
 /* Links inside the dropdown */
 .dropdown-content a {
+  font-family: 'Laila', serif;
+  font-size: 18px;
   color: black;
   padding: 12px 16px;
   text-decoration: none;
