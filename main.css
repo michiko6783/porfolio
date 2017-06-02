@@ -14,8 +14,8 @@ body{
 }
 
 .name img {
-  height: 270px;
-  width: 270px;
+  height: 250px;
+  width: 250px;
   border-radius: 50%;
   z-index: +3;
   position: absolute;
